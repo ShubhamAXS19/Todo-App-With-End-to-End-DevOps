@@ -1,0 +1,22 @@
+{
+  "dashboard": {
+    "title": "Todo App Dashboard",
+    "panels": [
+      {
+        "title": "API Response Time",
+        "type": "graph",
+        "metrics": ["http_request_duration_seconds"]
+      },
+      {
+        "title": "Memory Usage",
+        "type": "graph",
+        "metrics": ["container_memory_usage_bytes"]
+      },
+      {
+        "title": "CPU Usage",
+        "type": "graph",
+        "metrics": ["container_cpu_usage_seconds_total"]
+      }
+    ]
+  }
+}
